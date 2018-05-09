@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Patrick Mexal Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<!-- Individual Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+<header>
+  <a href="#main-menu"
+     class="menu-toggle"
+     role="button"
+     id="main-menu-toggle"
+     aria-expanded="false"
+     aria-controls="main-menu"
+     aria-label="Open main menu">
+    <span class="sr-only">Open main menu</span>
+    <span class="fa fa-bars" aria-hidden="true"></span>
+  </a>
+  
+  <h1 class="logo">Patrick Mexal</h1>
+  
+  <nav id="main-menu"
+       class="main-menu"
+       role="navigation"
+       aria-expanded="false"
+       aria-label="Main menu">
+    <a href="#main-menu-toggle"
+       class="menu-close"
+       role="button"
+       id="main-menu-close"
+       aria-expanded="false"
+       aria-controls="main-menu"
+       aria-label="Close main menu">
+      <span class="sr-only">Close main menu</span>
+      <span class="fa fa-close" aria-hidden="true"></span>
+    </a>
+    <ul>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Social Media</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+  <a href="#main-menu-toggle"
+     class="backdrop"
+     tabindex="-1"
+     aria-hidden="true"
+     hidden></a>
+</header>
+<script type="text/javascript" scr="./js/javascript.js"></script>
+</body>
+</html>
